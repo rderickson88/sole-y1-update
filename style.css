@@ -9,7 +9,7 @@
 }
 
 html {
-    font-family: 'Frutiger Cn', monospace;
+    font-family: 'Frutiger Cn', 'Roboto', monospace;
     font-size: 150%;
     background-color: rgb(195, 163, 80);
 }
