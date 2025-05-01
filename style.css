@@ -26,8 +26,6 @@ h1-h6 {
 header {
     display: flex;
     flex-flow: row wrap;
-    gap: 0.5rem;
-    justify-content: space-evenly;
     align-items: center;
     width: 95vw;
     margin: 0 auto;
@@ -42,6 +40,7 @@ header {
 
 header h1 {
     flex: 50% 4 2;
+    font-size: 1.8rem;
     text-shadow: 3px 3px rgba(100,100,100, 0.5);
 }
 header img {
@@ -52,7 +51,7 @@ header img {
 
 header h3 {
     flex: 100% 4 2;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-shadow: 3px 3px rgba(100,100,100, 0.5);
 }
 
@@ -106,6 +105,7 @@ nav a:hover {
     margin: 1rem 0 1rem 0;
     padding: 0.5rem;
     border: 1px dashed black;
+    box-shadow: 3px 3px rgba(100, 100, 100, 0.5);
 }
 
 .course-content h3 {
