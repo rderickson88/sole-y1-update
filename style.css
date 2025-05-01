@@ -23,7 +23,10 @@ h1-h6 {
 }
 
 header {
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
     width: 90vw;
     margin: 0 auto;
     padding: 0 0.5rem 0.5rem 0.5rem;
@@ -32,6 +35,14 @@ header {
     text-align: center;
     color: white;
     text-shadow: 3px 3px rgba(100,100,100, 0.5);
+}
+
+header h1 {
+    flex-grow: 4;
+}
+header img {
+    max-width: 400px; 
+    flex-grow: 2;
 }
 
 nav {
@@ -85,11 +96,19 @@ nav a:hover {
     html {
         font-size: 100%;
     }
+
+    header img {
+        max-width: 200px;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     html {
         font-size: 65%;
+    }
+
+    header img {
+        max-width: 150px;
     }
 }
 
