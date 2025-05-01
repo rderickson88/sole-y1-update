@@ -9,7 +9,7 @@
 }
 
 html {
-    font-family: 'Frutiger Cn', 'Roboto', monospace;
+    font-family: 'Frutiger Cn', 'Roboto', sans-serif;
     font-size: 150%;
     background-color: rgb(195, 163, 80);
 }
@@ -19,7 +19,7 @@ body {
 }
 
 h1-h6 {
-    font-family: 'Frutiger Bold', monospace;
+    font-family: 'Frutiger Bold', sans-serif;
 }
 
 header {
