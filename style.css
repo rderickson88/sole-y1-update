@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Frutiger Cn';
+    src: url(/assets/fonts/frutigercn.otf) format(woff2);
+}
+
+@font-face {
+    font-family: 'Frutiger Bold'; 
+    src: url(/assets/fonts/frutigerbold.otf) format(woff2);
+}
+
+html {
+    font-family: 'Frutiger Cn', monospace;
+    font-size: 150%;
+    background-color: rgb(195, 163, 80);
+}
+
+body {
+    margin: 0;
+}
+
+h1-h6 {
+    font-family: 'Frutiger Bold', monospace;
+}
+
+header {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    background-color: #1d4e3a;
+    box-shadow: 3px 3px rgba(29, 78, 58, 0.8);
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px rgba(100,100,100, 0.5);
+}
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 250);
+    background-color: rgb(200, 200, 200);
+    padding: 0.5rem;
+    border-radius: 10px
+}
+
+nav a:hover {
+    text-decoration: underline; 
+    color: rgb(200, 200, 250);
+    background-color: rgb(150, 150, 150);
+}
+
+.content-pages {
+    margin-top: 2rem;
+    padding: 0 1rem 0 1rem;
+}
+.content-pages h1 {
+    color: white;
+    text-shadow: 3px 3px rgba(150, 150, 150, 0.8);
+    text-align: center;
+}
+
+.course-content {
+    display: flex;
+    flex-flow: column; 
+    width: 90vw;
+    justify-self: center;
+    margin: 1rem 0 1rem 0;
+    padding: 0.5rem;
+    border: 1px dashed black;
+}
+
+.course-content h3 {
+    color: white;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 872px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 65%;
+    }
+}
+
