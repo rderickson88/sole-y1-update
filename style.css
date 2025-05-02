@@ -43,10 +43,18 @@ header h1 {
     font-size: 1.8rem;
     text-shadow: 3px 3px rgba(100,100,100, 0.5);
 }
-header img {
+
+header div {
+    display:flex;
+    align-items: center;
+    justify-content: center;;
+    
+}
+header div img {
     flex: 50% 2 4;
     max-width: 200px;
-    box-shadow: 3px 3px rgba(100, 100, 100, 0.5);
+    padding: 10px;
+    
 }
 
 header h3 {
